@@ -5,6 +5,6 @@
 
 //Average -> Azra
 
-//Even/Odd Sum -> Ceyda
+//Even-Odd Sum -> Ceyda
 
-//Array Create / Minimum / Maximum -> Alp
+//Array Create - Minimum - Maximum -> Alp
