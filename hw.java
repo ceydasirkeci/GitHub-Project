@@ -1,23 +1,23 @@
 //a method for getting the minimum integer from given array
-public static int getMin(int[] array) {
+public static void getMin(int[] array) {
     int min = Integer.MAX_VALUE;
     for (int a : array) {
         if (a < min) {
             min = a;
         }
     }
-    return min;
+    System.out.println(min);
 }
 
 //a method for getting the maximum integer from given array
-public static int getMax(int[] array) {
+public static void getMax(int[] array) {
     int max = Integer.MIN_VALUE;
     for (int a : array) {
         if (a > max) {
             max = a;
         }
     }
-    return max;
+    System.out.println(max);
 }
 
 //gets Average
