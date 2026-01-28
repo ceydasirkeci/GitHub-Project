@@ -1,5 +1,4 @@
-//a method for getting the minimum integer from given array
-public static int getMin(int[] array) {
+public static int getMin(int array[]) {
     int min = Integer.MAX_VALUE;
     for (int a : array) {
         if (a < min) {
@@ -9,8 +8,7 @@ public static int getMin(int[] array) {
     return min;
 }
 
-//a method for getting the maximum integer from given array
-public static int getMax(int[] array) {
+public static int getMax(int array[]) {
     int max = Integer.MIN_VALUE;
     for (int a : array) {
         if (a > max) {
@@ -21,12 +19,20 @@ public static int getMax(int[] array) {
 }
 
 //gets Average
-public static double getAverage(int[] givenArray){
+public static void getAverage(int[] givenArray){
     double sum = 0;
 
     //calculates the sum of the array
     for(int i = 0; givenArray.length > i; i++){
         sum += givenArray[i];
     }
-    return sum / givenArray.length;
+    double arrayAverage = sum / givenArray.length;
+    System.out.println("The Array average is: " + arrayAverage);
+    System.out.print("The differences from the average would be ");
+
+    //prints differences
+    for(int i = 0; givenArray.length > i; i++){
+        System.out.print(givenArray[i] - arrayAverage + " ");
+    }
+    System.out.println();
 }
