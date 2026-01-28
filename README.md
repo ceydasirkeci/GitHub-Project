@@ -7,4 +7,4 @@
 
 //Even-Odd Sum -> Ceyda
 
-//Array Create - Minimum - Maximum -> Alp
+// Minimum - Maximum -> Alp
