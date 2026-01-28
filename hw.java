@@ -6,7 +6,7 @@ public static void getMin(int[] array) {
             min = a;
         }
     }
-    System.out.println(min);
+    System.out.println("The minimum integer of the array: " + min);
 }
 
 //a method for getting the maximum integer from given array
@@ -17,7 +17,7 @@ public static void getMax(int[] array) {
             max = a;
         }
     }
-    System.out.println(max);
+    System.out.println("The maximum integer of the array: " + max);
 }
 
 //gets Average
