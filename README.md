@@ -1,1 +1,1 @@
-# GitHub-Project
+# Lab 0 Proje
