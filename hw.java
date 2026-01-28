@@ -40,11 +40,11 @@ public static void getAverage(int[] givenArray){
 }
 
 // Method for finding the sum of elements with odd and even numbered indexes. 
-public static void displayOddEvenIndexSums() {
+public static void displayOddEvenIndexSums(int [] givenArray) {
     int oddIndexSum = 0;
     int evenIndexSum = 0;
 
-    for (int i = 0; i < array.length ; i++){
+    for (int i = 0; i < givenArray.length ; i++){
         if (i % 2 == 0) {
             evenIndexSum += array[i];
         }
