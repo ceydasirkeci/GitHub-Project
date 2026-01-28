@@ -8,17 +8,6 @@ class Menu {
         Scanner in = new Scanner(System.in);
         Random random = new Random();
 
-        // Get the array size
-        System.out.print("Enter array size: ");
-        int size = in.nextInt();
-
-        int [] array = new int[size];
-
-        // Fill the array with random integers
-        for (int i = 0; i < size; i++) {
-            array[i] = random.nextInt(101);
-        }
-
         boolean isFinished = false;
 
         while (!isFinished) {
