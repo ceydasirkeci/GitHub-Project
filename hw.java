@@ -1,21 +1,23 @@
-public static int getMin(int array[]) {
+//a method for getting the minimum integer from given array
+public static void getMin(int[] array) {
     int min = Integer.MAX_VALUE;
     for (int a : array) {
         if (a < min) {
             min = a;
         }
     }
-    return min;
+    System.out.println(min);
 }
 
-public static int getMax(int array[]) {
+//a method for getting the maximum integer from given array
+public static void getMax(int[] array) {
     int max = Integer.MIN_VALUE;
     for (int a : array) {
         if (a > max) {
             max = a;
         }
     }
-    return max;
+    System.out.println(max);
 }
 
 //gets Average
@@ -35,4 +37,23 @@ public static void getAverage(int[] givenArray){
         System.out.print(givenArray[i] - arrayAverage + " ");
     }
     System.out.println();
+}
+
+// Method for finding the sum of elements with odd and even numbered indexes. 
+public static void displayOddEvenIndexSums() {
+    int oddIndexSum = 0;
+    int evenIndexSum = 0;
+
+    for (int i = 0; i < array.length ; i++){
+        if (i % 2 == 0) {
+            evenIndexSum += array[i];
+        }
+        else {
+            oddIndexSum += array[i];
+        }
+    }
+
+    //Printing out the output
+    System.out.println("Sum of even indexes: " + evenIndexSum);
+    System.out.println("Sum of odd indexes: " + oddIndexSum);
 }
